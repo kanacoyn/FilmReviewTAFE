@@ -38,7 +38,6 @@ const NavRoutes = [
 const AuthNavRoutes = [
   { name: "Home", goto: "/" },
   { name: "About", goto: "/about" },
-  { name: "Contact", goto: "/contact" },
   { name: "Profile", goto: "/profile" },
   { name: "Sign out", goto: "/signout" },
 ];

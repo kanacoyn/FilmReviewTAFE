@@ -1,11 +1,11 @@
 .card-image {
-  width: 100%;
-  aspect-ratio: 3/4;
+  width: 25%;
+  aspect-ratio: 0.75;
   object-fit: cover;
   object-position: center;
 }
 
-.book-card {
+.movie-card {
   position: relative;
 }
 .card-link {

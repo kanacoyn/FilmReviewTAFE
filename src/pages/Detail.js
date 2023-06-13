@@ -83,7 +83,7 @@ export function Detail(props) {
       <Container>
         <Row className="my-3">
           <Col md="4">
-            <Image path={movieData.image} />
+            <Image path={movieData.cover} />
           </Col>
           <Col>
             <h2>{movieData.title}</h2>
