@@ -51,10 +51,12 @@ export function Home() {
       <Col md="4" key={key}>
         <Card className="movie-card">
           <Image path={movie.cover} />
+
           <Card.Body>
             <Card.Title>{movie.title}</Card.Title>
+            <Card.Title>{movie.genre}</Card.Title>
           </Card.Body>
-          <a href={"/detail/" + movie.id} className="card-link"></a>
+          <a href={`/detail/${movie.id}`} className="card-link"></a>
         </Card>
       </Col>
     );
@@ -62,7 +64,9 @@ export function Home() {
 
   return (
     <Container>
-      Welcome to Film Stack Over View
+      <p>
+        <h2>Welcome to Film Stack Over View</h2>
+      </p>
       <Row>{Columns}</Row>
     </Container>
   );
