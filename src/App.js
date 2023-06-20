@@ -12,6 +12,7 @@ import { Signin } from "./pages/Signin";
 import { Signup } from "./pages/Signup";
 import { Signout } from "./pages/Signout";
 import { Detail } from "./pages/Detail";
+import { Contact } from "./pages/Contact";
 //firebase
 import { getAuth } from "firebase/auth";
 import { onAuthStateChanged } from "firebase/auth";
@@ -31,6 +32,7 @@ const FirebaseStorage = getStorage(FirebaseApp);
 const NavRoutes = [
   { name: "Home", goto: "/" },
   { name: "About", goto: "/about" },
+  { name: "Contact", goto: "/contact" },
   { name: "Sign in", goto: "/signin" },
   { name: "Sign up", goto: "/signup" },
 ];
@@ -38,7 +40,7 @@ const NavRoutes = [
 const AuthNavRoutes = [
   { name: "Home", goto: "/" },
   { name: "About", goto: "/about" },
-  { name: "Profile", goto: "/profile" },
+  { name: "Contact", goto: "/contact" },
   { name: "Sign out", goto: "/signout" },
 ];
 
@@ -67,6 +69,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/signin" element={<Signin />} />
               <Route path="/signout" element={<Signout />} />

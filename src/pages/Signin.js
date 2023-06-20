@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 
 import { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
-
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { FBAuthContext } from "../contexts/FBAuthContext";
 
@@ -15,6 +14,7 @@ export function Signin(props) {
   const [password, setPassword] = useState("");
   const [validEmail, setValidEmail] = useState(false);
   const [validPassword, setValidPassword] = useState(false);
+
   const FBAuth = useContext(FBAuthContext);
   const navigate = useNavigate();
 

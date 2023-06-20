@@ -109,9 +109,9 @@ export function Detail(props) {
           </Col>
           <Col>
             <h1>{movieData.title}</h1>
-            <h2>Directed by {movieData.director}</h2>
+            <h3>Directed by {movieData.director}</h3>
             <p>Published: {movieData.year}</p>
-            <h3>Starring {movieData.mainActor}</h3>
+            <h4>Starring {movieData.mainActor}</h4>
 
             <p className="movie-summary">
               <strong>Story:</strong> <br /> {movieData.summary}

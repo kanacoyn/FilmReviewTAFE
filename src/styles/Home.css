@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+SC&display=swap");
+
+body {
+  font-family: "Almendra", serif;
+  color: #3b333d;
+}
+
 .card-image {
   width: 25%;
   aspect-ratio: 0.75;
