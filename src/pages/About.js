@@ -4,12 +4,13 @@ export function About() {
   return (
     <div>
       <div className="contentBody">
-        <h1>
-          Welcome to our enchanting world of Harry Potter and Fantastic Beasts
+        <h1 className="font">
+          Welcome to our enchanting world of
+          <p>Harry Potter & Fantastic Beasts</p>
           movie reviews!
         </h1>
         <section>
-          <h2>About Us</h2>
+          <h2 className="font">About Us</h2>
           <p>
             At <strong>Film Stack Overview</strong>, our mission is to provide
             avid fans and movie enthusiasts with in-depth reviews and

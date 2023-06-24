@@ -13,6 +13,13 @@
   }
 }
 
+/* @import url("https://fonts.googleapis.com/css2?family=Almendra&family=Almendra+SC&display=swap");
+
+body {
+  font-family: "Almendra", serif;
+  color: #3b333d;
+} */
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

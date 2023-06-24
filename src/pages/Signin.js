@@ -55,7 +55,7 @@ export function Signin(props) {
               SignInHandler();
             }}
           >
-            <h3>Sign in to your account</h3>
+            <h3 className="font">Sign in to your account</h3>
             <Form.Group>
               <Form.Label>Email address</Form.Label>
               <Form.Control
@@ -77,7 +77,7 @@ export function Signin(props) {
             <Button
               variant="primary"
               type="submit"
-              className="my-2 w-100"
+              className="my-2 w-100 "
               size="lg"
               disabled={validEmail && validPassword ? false : true}
             >

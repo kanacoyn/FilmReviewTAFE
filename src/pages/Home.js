@@ -54,7 +54,7 @@ export function Home() {
 
           <Card.Body>
             <Card.Title>{movie.title}</Card.Title>
-            <Card.Title>{movie.genre}</Card.Title>
+            <Card.Text>{movie.genre}</Card.Text>
           </Card.Body>
           <a href={`/detail/${movie.id}`} className="card-link"></a>
         </Card>
@@ -65,7 +65,7 @@ export function Home() {
   return (
     <Container>
       <p>
-        <h2>Welcome to Film Stack Over View</h2>
+        <h2 className="font">Welcome to Film Stack Over View</h2>
       </p>
       <Row>{Columns}</Row>
     </Container>

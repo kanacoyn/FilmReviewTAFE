@@ -4,20 +4,20 @@ export function Contact() {
   return (
     <div>
       <div className="contentBody">
-        <h2>Contact Information</h2>
+        <h2 className="font">Contact Information</h2>
         <p>
           Thank you for visiting our website! If you have any questions,
           suggestions, or feedback, feel free to reach out to us. You can
           contact us through the following channels:
         </p>
         <ul>
-          <li>Email: example@example.com</li>
-          <li>Twitter: @example</li>
-          <li>Facebook: /example</li>
-          <li>Instagram: @example</li>
+          <li>Email: harrypotter@exampleTAFE.com</li>
+          <li>Twitter: @TAFEexample</li>
+          <li>Facebook: /TAFEexample</li>
+          <li>Instagram: @TAFEexample</li>
         </ul>
 
-        <h2>Feedback and Suggestions</h2>
+        <h2 className="font">Feedback and Suggestions</h2>
         <p>
           We value your opinion and would love to hear your feedback or
           suggestions for improving our website. If you have any ideas or
@@ -25,7 +25,7 @@ export function Contact() {
           highly appreciated!
         </p>
 
-        <h2>Collaboration Opportunities</h2>
+        <h2 className="font">Collaboration Opportunities</h2>
         <p>
           Are you interested in collaborating with us or contributing as a guest
           writer? We welcome partnerships and guest contributions. If you have
@@ -34,7 +34,7 @@ export function Contact() {
           above.
         </p>
 
-        <h2>Advertising and Sponsorship</h2>
+        <h2 className="font">Advertising and Sponsorship</h2>
         <p>
           If you are interested in advertising on our website or exploring
           sponsorship opportunities, we would be happy to discuss potential
@@ -42,7 +42,7 @@ export function Contact() {
           to discuss advertising or sponsorship options.
         </p>
 
-        <h2>Support or Donation</h2>
+        <h2 className="font">Support or Donation</h2>
         <p>
           If you find value in our website and would like to support our work,
           we gratefully accept donations. Your support helps us maintain and

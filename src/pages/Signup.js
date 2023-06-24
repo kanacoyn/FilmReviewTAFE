@@ -105,7 +105,7 @@ export function Signup(props) {
               SignupHandler();
             }}
           >
-            <h3>Sign up for an account</h3>
+            <h3 className="font">Sign up for an account</h3>
             <Form.Group>
               <Form.Label>Username</Form.Label>
               <Form.Control

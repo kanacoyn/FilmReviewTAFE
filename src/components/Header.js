@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
 import { Navigation } from "./Navigation";
 import movieIcon from "../movieIcon.png";
+import "../styles/Content.css";
 
 export function Header(props) {
   return (
