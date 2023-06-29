@@ -68,7 +68,7 @@ export function Signup(props) {
         checkUser(username);
       }, 1500);
     }
-  }, [password]);
+  }, [username]);
 
   useEffect(() => {
     if (password.length >= 8) {
